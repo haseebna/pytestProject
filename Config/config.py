@@ -1,0 +1,16 @@
+class TestData:
+
+    CHROME_EXECUTABLE_PATH = "chromedriver.exe"
+    FIREFOX_EXECUTABLE_PATH = "geckodriver.exe"
+    BASE_URL = "https://www.saucedemo.com/"
+    valid_username_1 = "standard_user"
+    valid_username_2 = "locked_out_user"
+    valid_username_3 = "problem_user"
+    valid_username_4 = "performance_glitch_user"
+    valid_password = "secret_sauce"
+    invalid_password = "invalid password"
+    invalid_username = "invalid Username"
+    Login_page_title = "Swag Labs"
+    expected_URL = "https://www.saucedemo.com/inventory.html"
+    Error_msg_locked_user = "Epic sadface: Sorry, this user has been locked out."
+    Error_msg_invalid_username_password = "Epic sadface: Username and password do not match any user in this service"
